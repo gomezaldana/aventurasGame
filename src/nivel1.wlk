@@ -2,6 +2,7 @@ import wollok.game.*
 import personajes.*
 import elementos.*
 import nivel2.*
+import fondo.*
 
 
 

@@ -3,10 +3,9 @@ import elementos.*
 import utilidades.*
 import nivel1.*
 import nivel2.*
+import fondo.*
 
-// en la implementación real, conviene tener un personaje por nivel
-// los personajes probablemente tengan un comportamiendo más complejo que solamente
-// imagen y posición
+
 
 object personajeSimple {
 	var property position = game.at(0,0)
