@@ -3,7 +3,6 @@ import utilidades.*
 import personajes.*
 
 
-
 class Elementos {
 	var property position = utilidadesParaJuego.posicionArbitraria()
 	const property image = 0
@@ -12,8 +11,7 @@ class Elementos {
 			position = utilidadesParaJuego.posicionArbitraria()
 		}
 	}
-	method efectoPacMan()
-    {
+	method efectoPacMan(){
         if (position.y() > game.height() - 1)
         {
             position = position.down(game.height())

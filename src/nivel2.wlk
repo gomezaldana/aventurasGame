@@ -9,7 +9,6 @@ object nivelLlaves {
 		// fondo - es importante que sea el primer visual que se agregue
 		game.addVisual(new Fondo(image="fondoCompleto.png"))
 				 
-		// otros visuals, p.ej. bloques o llaves
 		game.addVisual(new Corazon())
 		game.addVisual(new Corazon())
 		game.addVisual(new Corazon())
@@ -46,7 +45,6 @@ object nivelLlaves {
 		self.gameOver()
 		self.abrirPuerta()
 		game.onTick(1000,"logroObjetivos?",{self.abrirPuerta()})
-		//game.onTick(1000,"ganoNivel2?",{self.terminar()})
 		
 	}
 	
